@@ -214,6 +214,7 @@ align-items: center;
     font-size: 21px;
     font-weight: 600;
     margin: 0 100px;
+    
 }
 
 .footer>footer{ 
@@ -246,6 +247,7 @@ flex-direction: column;
 }
 
 .footer-column-link {
-    
+    text-decoration: none;
 }
 /* end footer  */
+
