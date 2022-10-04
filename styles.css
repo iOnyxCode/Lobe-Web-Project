@@ -8,9 +8,9 @@
 html, body {
     width: 100%;
     height: 100%;
-    /* overflow: hidden; */
     background-color: #fff;
     font-family: 'Darker Grotesque', sans-serif;
+    overflow-x: hidden;
 }
 /* general end  */
 
@@ -207,8 +207,76 @@ align-items: center;
 
 /* footer  */
 
+
+/* old css  */
+/* .footer-container {
+    display: flex;
+}
+
+footer {
+    width:1000px ;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    clear: both;
+}
+
+
 .footer-left {
+display: flex;
+}
+
+.footer-column {
+display: flex;
+justify-content: center;
+}
+
+.column-header {
 
 }
 
+.footer-column-link {
+
+} */
+
+.footer-container {
+    border-top: #333;
+    /* padding-top: 50px;
+    font-size: 21px;
+    font-weight: 600;
+    margin: 0 100px; */
+}
+
+.footer>footer{ 
+    
+    display: flex;
+    width: 100;
+    height: 300px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+}
+
+.footer-left {
+display: flex;
+flex-direction: column;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.column-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer-column-link {
+    text-align: ;
+}
 /* end footer  */
